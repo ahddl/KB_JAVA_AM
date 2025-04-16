@@ -1,4 +1,4 @@
-package ch01.sec09; //;생략불가, src아래 하위 폴더를 지정, 맨 윗줄에 위치!!
+package main.java.test0414.sec09; //;생략불가, src아래 하위 폴더를 지정, 맨 윗줄에 위치!!
 
 public class Hello { //자바 파일명과 동일해야함.
     public static void main(String[] args) {

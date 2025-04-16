@@ -1,4 +1,4 @@
-package test;  //;(세미콜론) 생략불가능, Package 맨위
+package main.java.test0415;  //;(세미콜론) 생략불가능, Package 맨위
 
 //int x = 100; // 모든 변수는 class 안으로 들어가야함.
 public class VariableTest {
