@@ -15,6 +15,13 @@ public class SmartPhoneUse {
         //원본 영역 ( 메서드 영역, static 영역)
         //스택영역(호출되는 메서드 변수들 만들어 쓰라고 주는 영역
         //힙 영역 (필드들 생성, 배열리스트)
-        SmartPhone yourPhone = new SmartPhone("검정","갤럭시");
+        //SmartPhone yourPhone = new SmartPhone("검정","갤럭시");
+
+        System.out.println(myPhone.model); //Phone
+        System.out.println(myPhone.wifi); //SmartPhone
+
+        myPhone.bell(); //Phone
+        myPhone.setWifi(true); //SmartPhone
+        myPhone.internet(); //SmartPhone
     }
 }
